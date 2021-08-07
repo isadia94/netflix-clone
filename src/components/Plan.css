@@ -1,0 +1,36 @@
+.plan {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan__info {
+  padding-left: 20px;
+}
+
+.plan__info > h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.plan__info > h5 {
+  font-size: 0.8rem;
+  color: gray;
+  font-weight: 600;
+}
+
+.plan__button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  background: #e50914;
+  border: none;
+  outline: none;
+}
+
+.plan__currentBtn {
+  background-color: gray;
+}
